@@ -1,0 +1,9 @@
+/home/kole/b1/build/Desktop-Debug/CMakeFiles/b1.dir
+/home/kole/b1/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/kole/b1/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/kole/b1/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/kole/b1/build/Desktop-Debug/CMakeFiles/install.dir
+/home/kole/b1/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/kole/b1/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/kole/b1/build/Desktop-Debug/CMakeFiles/b1_autogen_timestamp_deps.dir
+/home/kole/b1/build/Desktop-Debug/CMakeFiles/b1_autogen.dir
