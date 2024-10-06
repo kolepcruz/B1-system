@@ -17,7 +17,20 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 private slots:
-    void update_clock();
+    void update_ui();
+    void update_fila();
+    void on_patientButton_clicked();
+    void gerar_relatorio();
+
+    void on_cpfLineEdit_editingFinished();
+
+    void on_consultarPatient_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_removePatient_clicked();
+
+    void on_pushButton_2_clicked();
 
 private:
     Ui::MainWindow *ui;

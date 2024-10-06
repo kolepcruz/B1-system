@@ -39,6 +39,8 @@ else()
         add_executable(b1
             ${PROJECT_SOURCES}
             resource.qrc
+
+
         )
     endif()
 endif()

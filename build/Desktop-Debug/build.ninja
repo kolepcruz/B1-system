@@ -191,7 +191,7 @@ build b1_autogen/timestamp b1_autogen/mocs_compilation.cpp | ${cmake_ninja_workd
 #############################################
 # Custom command for b1_autogen/EWIEGA46WW/qrc_resource.cpp
 
-build b1_autogen/EWIEGA46WW/qrc_resource.cpp | ${cmake_ninja_workdir}b1_autogen/EWIEGA46WW/qrc_resource.cpp: CUSTOM_COMMAND /home/kole/b1/resource.qrc CMakeFiles/b1_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json /home/kole/b1/logo.png /usr/bin/rcc /usr/bin/rcc || b1_autogen b1_autogen_timestamp_deps
+build b1_autogen/EWIEGA46WW/qrc_resource.cpp | ${cmake_ninja_workdir}b1_autogen/EWIEGA46WW/qrc_resource.cpp: CUSTOM_COMMAND /home/kole/b1/resource.qrc CMakeFiles/b1_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json /home/kole/b1/icons8-mais-16.png /home/kole/b1/icons8-menos-16.png /home/kole/b1/logo.png /home/kole/b1/resource.qrc /usr/bin/rcc /usr/bin/rcc || b1_autogen b1_autogen_timestamp_deps
   COMMAND = cd /home/kole/b1/build/Desktop-Debug && /usr/bin/cmake -E cmake_autorcc /home/kole/b1/build/Desktop-Debug/CMakeFiles/b1_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json Debug
   DESC = Automatic RCC for resource.qrc
   restat = 1

@@ -346,3 +346,7 @@
 /home/kole/b1/main.cpp
 /home/kole/b1/mainwindow.cpp
  uic:./ui_mainwindow.h
+/home/kole/b1/patient.h
+/home/kole/b1/patientqueue.h
+/home/kole/b1/patient.cpp
+/home/kole/b1/patientqueue.cpp

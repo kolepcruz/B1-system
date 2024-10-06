@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>991</width>
+    <height>782</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>40</y>
+      <x>141</x>
+      <y>41</y>
       <width>701</width>
       <height>130</height>
      </rect>
@@ -70,8 +70,8 @@
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>39</x>
-      <y>39</y>
+      <x>140</x>
+      <y>40</y>
       <width>701</width>
       <height>131</height>
      </rect>
@@ -82,142 +82,326 @@
     <property name="frameShadow">
      <enum>QFrame::Shadow::Raised</enum>
     </property>
-    <widget class="QFrame" name="frame_2">
-     <property name="geometry">
-      <rect>
-       <x>530</x>
-       <y>-1</y>
-       <width>241</width>
-       <height>141</height>
-      </rect>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::Shape::StyledPanel</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Shadow::Raised</enum>
-     </property>
-    </widget>
    </widget>
-   <widget class="QWidget" name="formLayoutWidget">
+   <widget class="QWidget" name="verticalLayoutWidget_3">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>190</y>
-      <width>371</width>
-      <height>321</height>
+      <x>40</x>
+      <y>180</y>
+      <width>331</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QTextBrowser" name="textBrowser"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="buscaBinariaCheckbox">
+         <property name="layoutDirection">
+          <enum>Qt::LayoutDirection::LeftToRight</enum>
+         </property>
+         <property name="text">
+          <string>Usar Busca Binaria</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="consultarPatient">
+         <property name="text">
+          <string>Consultar por CPF/Nome</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Listar Pacientes</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Gerar Relatorio</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>180</y>
+      <width>261</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="layoutfila">
+     <item>
+      <layout class="QVBoxLayout" name="chamadoLayout">
+       <item>
+        <widget class="QLabel" name="numero_chamado">
+         <property name="text">
+          <string>Ultimo Chamado : 0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QProgressBar" name="progressBar">
+         <property name="value">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="primeiro">
+       <property name="text">
+        <string>paciente1</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="segundo">
+       <property name="text">
+        <string>paciente2</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="terceiro">
+       <property name="text">
+        <string>paciente3</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="quarto">
+       <property name="text">
+        <string>paciente4</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="ultimo">
+       <property name="text">
+        <string>paciente5</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>180</y>
+      <width>337</width>
+      <height>439</height>
      </rect>
     </property>
     <layout class="QFormLayout" name="formLayout">
-     <item row="0" column="0">
+     <property name="leftMargin">
+      <number>20</number>
+     </property>
+     <property name="topMargin">
+      <number>40</number>
+     </property>
+     <property name="rightMargin">
+      <number>40</number>
+     </property>
+     <property name="bottomMargin">
+      <number>40</number>
+     </property>
+     <item row="1" column="0">
       <widget class="QLabel" name="nameLabel">
        <property name="text">
         <string>name</string>
        </property>
       </widget>
      </item>
-     <item row="0" column="1">
+     <item row="1" column="1">
       <widget class="QLineEdit" name="nameLineEdit"/>
      </item>
-     <item row="1" column="0">
+     <item row="2" column="0">
       <widget class="QLabel" name="cpfLabel">
        <property name="text">
         <string>cpf</string>
        </property>
       </widget>
      </item>
-     <item row="1" column="1">
-      <widget class="QLineEdit" name="cpfLineEdit"/>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="cpfLineEdit">
+       <property name="inputMask">
+        <string notr="true">xxx.xxx.xxx-xx</string>
+       </property>
+       <property name="placeholderText">
+        <string/>
+       </property>
+      </widget>
      </item>
-     <item row="2" column="0">
+     <item row="3" column="0">
       <widget class="QLabel" name="emailLabel">
        <property name="text">
         <string>email</string>
        </property>
       </widget>
      </item>
-     <item row="2" column="1">
+     <item row="3" column="1">
       <widget class="QLineEdit" name="emailLineEdit"/>
      </item>
-     <item row="3" column="0">
+     <item row="4" column="0">
       <widget class="QLabel" name="birthdayLabel">
        <property name="text">
         <string>birthday</string>
        </property>
       </widget>
      </item>
-     <item row="3" column="1">
+     <item row="4" column="1">
       <widget class="QDateEdit" name="birthdayDateEdit"/>
      </item>
-     <item row="4" column="0">
+     <item row="5" column="0">
       <widget class="QLabel" name="sintoma_tosseLabel">
        <property name="text">
-        <string>sintoma_tosse</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="1">
-      <widget class="QCheckBox" name="sintoma_tosseCheckBox"/>
-     </item>
-     <item row="5" column="0">
-      <widget class="QLabel" name="sintoma_nauseaLabel">
-       <property name="text">
-        <string>sintoma_nausea</string>
+        <string>tosse</string>
        </property>
       </widget>
      </item>
      <item row="5" column="1">
-      <widget class="QCheckBox" name="sintoma_nauseaCheckBox"/>
+      <widget class="QCheckBox" name="sintoma_tosseCheckBox"/>
      </item>
      <item row="6" column="0">
-      <widget class="QLabel" name="sintoma_febreLabel">
+      <widget class="QLabel" name="sintoma_nauseaLabel">
        <property name="text">
-        <string>sintoma_febre</string>
+        <string>nausea</string>
        </property>
       </widget>
      </item>
      <item row="6" column="1">
-      <widget class="QCheckBox" name="sintoma_febreCheckBox"/>
+      <widget class="QCheckBox" name="sintoma_nauseaCheckBox"/>
      </item>
      <item row="7" column="0">
-      <widget class="QLabel" name="sintoma_acidenteLabel">
+      <widget class="QLabel" name="sintoma_febreLabel">
        <property name="text">
-        <string>sintoma_acidente</string>
+        <string>febre</string>
        </property>
       </widget>
      </item>
      <item row="7" column="1">
-      <widget class="QCheckBox" name="sintoma_acidenteCheckBox"/>
+      <widget class="QCheckBox" name="sintoma_febreCheckBox"/>
      </item>
      <item row="8" column="0">
-      <widget class="QLabel" name="sintoma_avcLabel">
+      <widget class="QLabel" name="sintoma_acidenteLabel">
        <property name="text">
-        <string>sintoma_avc</string>
+        <string>acidente</string>
        </property>
       </widget>
      </item>
      <item row="8" column="1">
-      <widget class="QCheckBox" name="sintoma_avcCheckBox"/>
+      <widget class="QCheckBox" name="sintoma_acidenteCheckBox"/>
      </item>
      <item row="9" column="0">
-      <widget class="QLabel" name="sintoma_infeccaoLabel">
+      <widget class="QLabel" name="sintoma_avcLabel">
        <property name="text">
-        <string>sintoma_infeccao</string>
+        <string>avc</string>
        </property>
       </widget>
      </item>
      <item row="9" column="1">
-      <widget class="QCheckBox" name="sintoma_infeccaoCheckBox"/>
+      <widget class="QCheckBox" name="sintoma_avcCheckBox"/>
      </item>
      <item row="10" column="0">
-      <widget class="QLabel" name="sintoma_covidLabel">
+      <widget class="QLabel" name="sintoma_infeccaoLabel">
        <property name="text">
-        <string>sintoma_covid</string>
+        <string>infeccao</string>
        </property>
       </widget>
      </item>
      <item row="10" column="1">
+      <widget class="QCheckBox" name="sintoma_infeccaoCheckBox"/>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLabel" name="sintoma_covidLabel">
+       <property name="text">
+        <string>covid</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
       <widget class="QCheckBox" name="sintoma_covidCheckBox"/>
+     </item>
+     <item row="12" column="0">
+      <widget class="QLabel" name="sintoma_disenteriaLabel">
+       <property name="text">
+        <string>disenteria</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QCheckBox" name="sintoma_disenteriaCheckBox"/>
+     </item>
+     <item row="14" column="0" colspan="2">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="patientButton">
+         <property name="toolTip">
+          <string>Adicionar paciente</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="resource.qrc">
+           <normaloff>:/images/icons8-mais-16.png</normaloff>:/images/icons8-mais-16.png</iconset>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="removePatient">
+         <property name="toolTip">
+          <string>Remover paciente</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="resource.qrc">
+           <normaloff>:/images/icons8-menos-16.png</normaloff>:/images/icons8-menos-16.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </item>
     </layout>
    </widget>
@@ -227,7 +411,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>991</width>
      <height>23</height>
     </rect>
    </property>
@@ -235,6 +419,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
+  <include location="resource.qrc"/>
   <include location="resource.qrc"/>
  </resources>
  <connections/>

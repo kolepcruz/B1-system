@@ -1,5 +1,8 @@
 <RCC>
     <qresource prefix="/images">
         <file>logo.png</file>
+        <file>resource.qrc</file>
+        <file>icons8-menos-16.png</file>
+        <file>icons8-mais-16.png</file>
     </qresource>
 </RCC>
